@@ -15,22 +15,21 @@
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.gridbutton{
-    margin-right: 4px;
+.gridbutton {
+  margin-right: 4px;
   margin-left: 4px;
   border-radius: 20px;
   background-color: black;
-  color:white;
+  color: white;
   margin-bottom: 3px;
   margin-right: 3px;
 }
-.gridbuttonnew{
-   
+.gridbuttonnew {
   margin-left: -16px;
   margin-top: 0px !important;
   border-radius: 20px;
   background-color: black;
-  color:white;
+  color: white;
   margin-bottom: 3px;
   margin-right: 3px;
 }
@@ -48,13 +47,12 @@
   font-size: 1.5rem;
   margin-right: 1rem;
 }
-@media(min-width:768px){
+@media (min-width: 768px) {
   .company-icon {
     font-size: 3.5rem;
     margin-right: 4rem;
   }
 }
-
 
 .img-container {
   position: relative;
@@ -74,7 +72,7 @@
   .title {
     font-size: 2.5rem;
   }
-  
+
   .title-text {
     font-size: 1rem;
   }
@@ -84,14 +82,14 @@
   .title {
     font-size: 3.5rem;
   }
-  .section-1{
+  .section-1 {
     margin-top: 10px;
     /* margin-bottom: 50px!important; */
   }
 }
 
 .rotated-left {
-  top:-45%;
+  top: -45%;
   right: 0;
   transform-origin: 0 0;
   transform: rotate(10deg); /* Adjust the rotation angle as needed */
@@ -107,7 +105,7 @@
   z-index: 9;
 }
 
-.yoicon{
+.yoicon {
   font-size: 55px;
   margin-bottom: 9px;
 }
@@ -127,105 +125,99 @@
   color: white;
 }
 
-@media (min-width:768px){
-  .section-title{
-    font-size: 4rem!important;
-    font-weight:bolder;
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 4rem !important;
+    font-weight: bolder;
     padding-bottom: 0px;
     margin-bottom: 0px;
-}
+  }
 }
 
-.section-title{
+.section-title {
   font-size: 1.5rem;
-  font-weight:bold;
+  font-weight: bold;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-
-
-.section-text{
-    font-size: 1.3rem;
-    font-weight:600;
-    color: #c6baba;
-    margin-bottom: 1rem;
+.section-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #c6baba;
+  margin-bottom: 1rem;
 }
 
-.artist-name{
-    font-size: 1.2rem;
-    font-weight: bold;
+.artist-name {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.card-up-content{
-  position:absolute;
-  top:12px;
-  left:12px;
- 
+.card-up-content {
+  position: absolute;
+  top: 12px;
+  left: 12px;
 }
-.card1{
-  padding:;
+.card1 {
+  padding: ;
   background-image: url("images/illustration-drawing-cute-astronaut-space-generative-ai_863013-586.avif");
   background-repeat: no-repeat;
   block-size: 16em;
-  background-size:cover;
-  border: 10px solid #1B2845;
+  background-size: cover;
+  border: 10px solid #1b2845;
 }
 
-@media(max-width:768){
-  .card1{
-    width: 5rem!important;
-    block-size: 5em!important;
+@media (max-width: 768px) {
+  .profile {
+    width: 50px;
+    position: absolute;
+    
+    top: 150px!important;
+    left: 40%;
+    z-index: 1;
   }
 }
-.authorname{
+.authorname {
   color: white;
   font-weight: 700;
-
 }
-.authorbio{
+.authorbio {
   color: white;
   font-weight: 500;
-  
 }
 
-.card-foot-content{
-  position:absolute;
-  top:11.8rem;
+.card-foot-content {
+  position: absolute;
+  top: 11.8rem;
   border-top-right-radius: 30px;
   width: 75%;
-  background-color: #1B2845;
+  background-color: #1b2845;
   color: white;
 }
-.artname{
+.artname {
   font-size: 1rem;
   font-weight: 500;
-
 }
 
-.footer-title{
-  font-size: 2.0rem;
+.footer-title {
+  font-size: 2rem;
   font-weight: bold;
 }
-.footer-text{
-  font-size: 1.0rem;
-  font-size:700;
+.footer-text {
+  font-size: 1rem;
+  font-size: 700;
 }
 
-
-@media(min-width:768px){
-  .footer-title{
-    font-size: 3.0rem;
+@media (min-width: 768px) {
+  .footer-title {
+    font-size: 3rem;
     font-weight: bolder;
   }
-  .footer-text{
+  .footer-text {
     font-size: 1.5rem;
-    font-size:bold;
+    font-size: bold;
   }
-  .foooter{
+  .foooter {
     margin-top: 100px;
   }
 }
-
-
-
