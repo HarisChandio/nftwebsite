@@ -1,0 +1,231 @@
+* {
+  font-family: "Poppins";
+}
+
+.nav-item {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.mybutton {
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gridbutton{
+    margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 20px;
+  background-color: black;
+  color:white;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.gridbuttonnew{
+   
+  margin-left: -16px;
+  margin-top: 0px !important;
+  border-radius: 20px;
+  background-color: black;
+  color:white;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.title {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.title-text {
+  font-size: large;
+  font-weight: bold;
+}
+
+.company-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+@media(min-width:768px){
+  .company-icon {
+    font-size: 3.5rem;
+    margin-right: 4rem;
+  }
+}
+
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.img-container img {
+  position: absolute;
+  border: 5px solid #ccc;
+  /* top: 22%;
+    left: 10%; */
+  /* right: 22%; */
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .title-text {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .section-1{
+    margin-top: 10px;
+    /* margin-bottom: 50px!important; */
+  }
+}
+
+.rotated-left {
+  top:-45%;
+  right: 0;
+  transform-origin: 0 0;
+  transform: rotate(10deg); /* Adjust the rotation angle as needed */
+  z-index: 1;
+}
+
+.rotated-right {
+  /* Position the image absolutely within the container */
+  left: 15%;
+  top: 18%;
+  transform-origin: 0 0;
+  transform: rotate(-16deg);
+  z-index: 9;
+}
+
+.yoicon{
+  font-size: 55px;
+  margin-bottom: 9px;
+}
+.mycardtitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.mycard {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.mycardtext {
+  font-size: 1rem;
+  color: white;
+}
+
+@media (min-width:768px){
+  .section-title{
+    font-size: 4rem!important;
+    font-weight:bolder;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+}
+
+.section-title{
+  font-size: 1.5rem;
+  font-weight:bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.section-text{
+    font-size: 1.3rem;
+    font-weight:600;
+    color: #c6baba;
+    margin-bottom: 1rem;
+}
+
+.artist-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-up-content{
+  position:absolute;
+  top:12px;
+  left:12px;
+ 
+}
+.card1{
+  padding:;
+  background-image: url("images/illustration-drawing-cute-astronaut-space-generative-ai_863013-586.avif");
+  background-repeat: no-repeat;
+  block-size: 16em;
+  background-size:cover;
+  border: 10px solid #1B2845;
+}
+
+@media(max-width:768){
+  .card1{
+    width: 5rem!important;
+    block-size: 5em!important;
+  }
+}
+.authorname{
+  color: white;
+  font-weight: 700;
+
+}
+.authorbio{
+  color: white;
+  font-weight: 500;
+  
+}
+
+.card-foot-content{
+  position:absolute;
+  top:11.8rem;
+  border-top-right-radius: 30px;
+  width: 75%;
+  background-color: #1B2845;
+  color: white;
+}
+.artname{
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+
+.footer-title{
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+.footer-text{
+  font-size: 1.0rem;
+  font-size:700;
+}
+
+
+@media(min-width:768px){
+  .footer-title{
+    font-size: 3.0rem;
+    font-weight: bolder;
+  }
+  .footer-text{
+    font-size: 1.5rem;
+    font-size:bold;
+  }
+  .foooter{
+    margin-top: 100px;
+  }
+}
+
+
+
